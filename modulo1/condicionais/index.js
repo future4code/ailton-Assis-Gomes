@@ -1,14 +1,10 @@
-  
-  const turnoDoDia= prompt("Qual turno você estuda? Se matutino, digite M. Se for Vespertino, digite V. Se noturno, digite N.")
- 
- 
+//function soma (a,b){ const resultado = a+b;
+  //  return resultado}
+//var soma = function (a,b){return a+b}
+let soma = (a,b) => a+b
 
-  if(turnoDoDia === M) {
-      console.log("Bom dia!")
-  } else if(turnoDoDia === V) {
-      console.log("Boa tarde!")
-  } else {
-      console.log("Boa noite!")
-  }
-  
-  
+console.log(soma(2,3))
+console.log(soma(3,4))
+console.log(soma(4,5))
+console.log(soma(5,6))
+console.log(soma(6,7))
